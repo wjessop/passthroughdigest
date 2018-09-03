@@ -44,3 +44,7 @@ Confirm the file with a local MD5 command:
 
     $ md5 /tmp/outputfile
     MD5 (/tmp/outputfile) = f7d9dd511e4d7c60b72cfb897e9e17c3
+
+## MD5?
+
+It's what S3 uses for it's ETags and it's what I needed it for. I'll add more hash methods if needed.
